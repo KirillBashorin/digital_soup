@@ -354,6 +354,6 @@ const KRAKEN_TAP_V1 = {
   ],
 };
 
-const CasesData = [KRAKEN_TAP_V1, KRAKEN_STAKING, KARRAT, ELECTRA,];
+const CasesData = [KARRAT, ELECTRA,];
 
 export default CasesData;

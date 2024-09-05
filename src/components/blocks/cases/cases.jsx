@@ -37,7 +37,7 @@ const Cases = ({ cases }) => {
 
   const casesStep = 4;
 
-  const [currentLength, setCurrentLength] = useState(casesStep);
+  const [currentLength, setCurrentLength] = useState(cases.length < casesStep ? cases.length : casesStep);
 
   return (
     <Wrapper id="cases">
